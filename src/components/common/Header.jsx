@@ -13,9 +13,10 @@ const Header = () => {
             alt="E-taklif logosi"
             className="w-12 h-12 object-contain"
           />
-          <span className="font-elegant text-xl text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-pink-300 tracking-wide">
+          <span className="faculty-glyphic-regular text-xl text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-pink-400 tracking-wide">
   e-taklifnoma.uz
 </span>
+
 
         </div>
 
@@ -30,7 +31,7 @@ const Header = () => {
         <div className="hidden md:block">
           <button 
             onClick={() => document.getElementById('confirmation').scrollIntoView({ behavior: 'smooth' })}
-            className="bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-full transition"
+            className="faculty-glyphic-regular text-xl bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-full transition"
           >
             Taklifnoma yaratish
           </button>
