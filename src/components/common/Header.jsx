@@ -13,7 +13,10 @@ const Header = () => {
             alt="E-taklif logosi"
             className="w-12 h-12 object-contain"
           />
-          <span className="font-elegant text-xl text-pink-500 tracking-wide">e-taklifnoma.uz</span>
+          <span className="font-elegant text-xl text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-pink-300 tracking-wide">
+  e-taklifnoma.uz
+</span>
+
         </div>
 
         {/* Navigatsiya */}
