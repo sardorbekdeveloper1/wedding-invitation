@@ -3,11 +3,12 @@ import { useEffect, useState } from 'react';
 import { Sparkles, Heart } from 'lucide-react';
 
 const images = [
-  "/images/bg1.jpg",
-  "/images/bg2.jpg",
-  "/images/bg3.jpg",
-  "/images/bg4.jpg"
+  "/images/bg1.webp",
+  "/images/bg2.webp",
+  "/images/bg3.webp",
+  "/images/bg4.webp"
 ];
+
 
 
 const Hero = () => {
