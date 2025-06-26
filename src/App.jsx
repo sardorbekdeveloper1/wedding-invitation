@@ -1,6 +1,7 @@
 // src/App.jsx
 import { useState, useEffect } from 'react'
 import HeroSection from './components/sections/HeroSection'
+import About from './components/sections/about'
 // import WeddingInfo from './components/sections/WeddingInfo'
 // import CountdownTimer from './components/sections/CountdownTimer'
 // import VenueMap from './components/sections/VenueMap'
@@ -36,7 +37,8 @@ function App() {
       {/* Hero Section */}
       <HeroSection />
       
-      
+      {/* About */}
+      <About/>
      
       {/* Footer */}
       <Footer/>
