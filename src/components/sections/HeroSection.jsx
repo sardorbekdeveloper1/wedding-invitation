@@ -3,11 +3,12 @@ import { useEffect, useState } from 'react';
 import { Sparkles, Heart } from 'lucide-react';
 
 const images = [
-  "/public/images/bg1.jpg",
-  "/public/images/bg2.jpg",
-  "/public/images/bg3.jpg",
-  "/public/images/bg4.jpg"
+  "/images/bg1.jpg",
+  "/images/bg2.jpg",
+  "/images/bg3.jpg",
+  "/images/bg4.jpg"
 ];
+
 
 const Hero = () => {
   const [currentImage, setCurrentImage] = useState(0);
