@@ -9,7 +9,7 @@ const Loading = () => {
       <Lottie 
         animationData={loadingAnimation} 
         loop={true} 
-        style={{ width: 300, height: 300 }} // bu yerda kichikroq o'lcham berildi
+        style={{ width: 150, height: 150 }} // bu yerda kichikroq o'lcham berildi
       />
     </div>
   );
