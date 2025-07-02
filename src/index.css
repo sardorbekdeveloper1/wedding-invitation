@@ -22,6 +22,11 @@
   font-style: normal;
 }
 
+body {
+  font-family: "Dongle", sans-serif;
+}
+
+
 /* Custom CSS Variables */
 @theme {
   --color-primary-50: #fdf2f8;
