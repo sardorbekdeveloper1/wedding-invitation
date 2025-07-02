@@ -5,8 +5,7 @@ import { Sparkles, Heart } from 'lucide-react';
 const images = [
   "/images/bg1.webp",
   "/images/bg2.webp",
-  "/images/bg3.webp",
-  "/images/bg4.webp"
+  "/images/bg3.webp"
 ];
 
 

@@ -1,15 +1,26 @@
 /* src/index.css - Tailwind CSS v4 uchun */
 @import "tailwindcss";
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
-
-.faculty-glyphic-regular {
-  font-family: 'Faculty Glyphic', sans-serif;
-  font-weight: 400;
+/* Dongle font classes */
+.dongle-light {
+  font-family: "Dongle", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
+.dongle-regular {
+  font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dongle-bold {
+  font-family: "Dongle", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
 
 /* Custom CSS Variables */
 @theme {
@@ -35,9 +46,8 @@
   --color-gold-800: #92400e;
   --color-gold-900: #78350f;
   
-  --font-family-uzbek: Inter, sans-serif;
-  --font-family-elegant: 'Playfair Display', serif;
-  
+  --font-family-main: 'Dongle', sans-serif;
+
   --animate-fade-in: fadeIn 0.5s ease-in-out;
   --animate-slide-up: slideUp 0.5s ease-out;
   --animate-bounce-slow: bounce 2s infinite;
@@ -66,12 +76,12 @@ html {
 }
 
 body {
-  font-family: var(--font-family-uzbek);
-  line-height: 1.6;
+  font-family: var(--font-family-main); /* Dongle shriftga o‘zgartirildi */
+  line-height: 1.4; /* Dongle shrift balandligi kichik, 1.6 dan pastroq yaxshiroq */
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-family-elegant);
+  font-family: var(--font-family-main); /* Sarlavhalar ham Dongle bo‘ldi */
 }
 
 /* Utility classes */
